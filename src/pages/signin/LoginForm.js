@@ -189,7 +189,7 @@ class LoginForm extends React.Component {
                         keyboardType={CONST.KEYBOARD_TYPE.EMAIL_ADDRESS}
                         errorText={formErrorText}
                         hasError={hasError}
-                        maxLength={15}
+                        maxLength={12}
                     />
                 </View>
                 {!_.isEmpty(this.props.account.success) && <Text style={[styles.formSuccess]}>{this.props.account.success}</Text>}
