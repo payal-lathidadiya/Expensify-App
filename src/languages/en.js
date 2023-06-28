@@ -190,7 +190,7 @@ export default {
         tfaRequiredDescription: 'Please enter the two-factor authentication code\nwhere you are trying to sign in.',
     },
     moneyRequestConfirmationList: {
-        whoPaid: 'Who  paid?',
+        whoPaid: 'Who paid?',
         whoWasThere: 'Who was there?',
         whatsItFor: "What's it for?",
     },
